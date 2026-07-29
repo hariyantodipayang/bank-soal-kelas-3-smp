@@ -1,54 +1,29 @@
 ```
+# Build artifacts
+assets/
+dist/
+build/
+*.js
+*.css
+
 # Dependencies
 node_modules/
 
-# Build artifacts
-dist/
-
-# Logs
-*.log
-
-# Environment variables
+# Environment
 .env
 .env.local
 *.env.*
 
-# IDE
+# Editors
 .vscode/
 .idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Coverage reports
-coverage/
-htmlcov/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Compiled binary files
-*.o
-*.a
-*.so
-*.dll
-*.exe
-
-# Package manager caches
-.npm/
-.yarn/
-.pnpm/
-
-# Vite temporary files
-.vite/
-
 ```
