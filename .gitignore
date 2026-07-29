@@ -1,13 +1,10 @@
-```
-# Build artifacts
-assets/
-dist/
-build/
-*.js
-*.css
+# Build artifacts (keep production files for GitHub Pages)
+# dist/
+# build/
 
 # Dependencies
 node_modules/
+bank-soal-smp/node_modules/
 
 # Environment
 .env
@@ -26,4 +23,3 @@ node_modules/
 # OS generated files
 .DS_Store
 Thumbs.db
-```
