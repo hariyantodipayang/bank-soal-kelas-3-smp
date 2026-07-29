@@ -1,10 +1,10 @@
 ```
 # Build artifacts
-assets/
 dist/
 build/
 *.js
 *.css
+*.html
 
 # Dependencies
 node_modules/
@@ -23,7 +23,53 @@ node_modules/
 *.tmp
 *.swp
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.gradle/
+target/
 ```
